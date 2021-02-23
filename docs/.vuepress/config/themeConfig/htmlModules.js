@@ -39,16 +39,16 @@ module.exports = {
     //     <script>
     //         (adsbygoogle = window.adsbygoogle || []).push({});
     //     </script>`,
-    sidebarB: `<!-- 正方形 -->
-    ns class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="3508773082"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>`,
+    // sidebarB: `<!-- 正方形 -->
+    // ns class="adsbygoogle"
+    //       style="display:block"
+    //       data-ad-client="ca-pub-7828333725993554"
+    //       data-ad-slot="3508773082"
+    //       data-ad-format="auto"
+    //       data-full-width-responsive="true"></ins>
+    //   <script>
+    //       (adsbygoogle = window.adsbygoogle || []).push({});
+    //   </script>`,
     pageT: `<!-- 固定100% * 90px可显示，max-height:90px未见显示-->
      <ins class="adsbygoogle"
           style="display:inline-block;width:100%;max-height:90px"
