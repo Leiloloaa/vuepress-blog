@@ -11,25 +11,25 @@ module.exports = [
             // { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
             { text: '《JavaScript》笔记', link: '/note/javascript/' },
             // { text: '《JavaScript高级程序设计》笔记', link: '/note/js/' },
-            // { text: '《ES6 教程》笔记', link: '/note/es6/' },
-            {
-                text: '学习笔记',
-                items: [
-                    //{
-                    //         text: '《TypeScript》笔记',
-                    //         link: '/pages/51afd6/',
-                    //     },
-                    //     {
-                    //         text: '《TypeScript 从零实现 axios》',
-                    //         link: '/note/typescript-axios/',
-                    //     },
-                    {
-                        text: '《Git》学习笔记',
-                        link: '/note/git/',
-                    },
+            { text: '《网络基础》', link: '/note/es6/' },
+            // {
+            //     text: '学习笔记',
+            //     items: [
+            //         //{
+            //         //         text: '《TypeScript》笔记',
+            //         //         link: '/pages/51afd6/',
+            //         //     },
+            //         //     {
+            //         //         text: '《TypeScript 从零实现 axios》',
+            //         //         link: '/note/typescript-axios/',
+            //         //     },
+            //         {
+            //             text: '《Git》学习笔记',
+            //             link: '/note/git/',
+            //         },
 
-                ],
-            },
+            //     ],
+            // },
         ],
     }, {
         text: 'Vue',

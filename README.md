@@ -1,13 +1,11 @@
-## 介绍
+## 官网
 
-## 这个主题可以做什么？
+https://vuepress.vuejs.org/zh/guide/getting-started.html
 
-## 快速上手
+##  主题
 
-## ⚡️ 未来...
+https://github.com/xugaoyi/vuepress-theme-vdoing
 
-## 许可证
+##  运行
 
-[MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
-
-Copyright (c) 2019-present Leiloloaa Xu
+> yarn docs:dev

@@ -7,7 +7,7 @@ module.exports = {
     // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
     title: "Leiloloaa blog",
-    description: 'web前端技术博客，朝着阳光走，身影永远在身后， 只有努力没有什么做不到 ',
+    description: 'web前端技术博客，朝着阳光走，身影永远在身后，只有努力没有什么做不到；欢迎关注前端智库公众号；',
     // base: '/', // 格式：'/<仓库名>/'， 默认'/'
     markdown: {
         lineNumbers: true, // 代码行号
