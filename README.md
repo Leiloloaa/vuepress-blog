@@ -9,3 +9,5 @@ https://github.com/xugaoyi/vuepress-theme-vdoing
 ##  运行
 
 > yarn docs:dev
+
+> npm run dev
