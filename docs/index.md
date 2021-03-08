@@ -14,7 +14,7 @@ features: # 可选的
       imgUrl: /img/web.png # 可选
     - title: 技术
       details: 技术文档、教程、技巧、总结等文章
-      link: /technology/
+      link: /pages/583a5b/
       imgUrl: /img/ui.png
     - title: 个人随笔
       details: 随笔、情感、总结等文章

@@ -55,7 +55,7 @@ module.exports = [
         text: 'Interview',
         link: '/technology/',
         items: [
-            { text: '面试', link: '/pages/ef8039/' },
+            { text: '面试知识汇总', link: '/pages/ef8039/' },
         ],
     }, {
         text: 'more',
