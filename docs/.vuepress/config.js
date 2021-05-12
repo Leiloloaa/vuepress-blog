@@ -8,7 +8,7 @@ module.exports = {
 
     title: "Stone blog",
     description: 'web前端技术博客，朝着阳光走，身影永远在身后，只有努力没有什么做不到；欢迎关注前端智库公众号；',
-    base: '/lovezfj/', // 格式：'/<仓库名>/'， 默认'/'
+    base: '/Leiloloaa/', // 格式：'/<仓库名>/'， 默认'/'
     markdown: {
         lineNumbers: true, // 代码行号
     },
