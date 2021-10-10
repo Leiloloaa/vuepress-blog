@@ -1,13 +1,3 @@
-## 官网
+# 个人博客
 
-https://vuepress.vuejs.org/zh/guide/getting-started.html
-
-##  主题
-
-https://github.com/xugaoyi/vuepress-theme-vdoing
-
-##  运行
-
-> yarn docs:dev
-
-> npm run dev
+博客地址：http://66.152.176.25:309

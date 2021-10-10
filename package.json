@@ -1,13 +1,13 @@
 {
     "name": "theme-vdoing-blog",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "scripts": {
-        "serve": "vuepress dev docs --port 3000",
+        "serve": "vuepress dev docs",
         "build": "vuepress build docs",
         "deploy": "bash deploy.sh",
         "editFm": "node utils/editFrontmatter.js",
-        "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh",
-        "publish": "cd theme-vdoing && npm publish && cd ../ && npm run updateTheme",
+        "baiduPush": "node utils/baiduPush.js https://Leiloloaa.com && bash baiduPush.sh",
+        "publish": "cd ./theme-vdoing && npm publish && cd ../ && npm run updateTheme",
         "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D"
     },
     "license": "MIT",
@@ -22,7 +22,7 @@
         "vuepress-plugin-one-click-copy": "^1.0.2",
         "vuepress-plugin-thirdparty-search": "^1.0.2",
         "vuepress-plugin-zooming": "^1.1.7",
-        "vuepress-theme-vdoing": "^1.8.1",
+        "vuepress-theme-vdoing": "^1.8.3",
         "yamljs": "^0.3.0"
     },
     "dependencies": {
