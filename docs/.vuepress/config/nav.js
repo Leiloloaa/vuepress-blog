@@ -15,16 +15,16 @@ module.exports = [
                 items: [
                     { text: 'HTML', link: '/pages/8143cc480faf9a11/' },
                     { text: 'CSS', link: '/pages/c8f128/' },
-                    { text: 'JavaScript', link: '/pages/0796ba76b4b55368/' }
                 ]
             },
             {
                 text: '学习笔记',
                 items: [
+                    { text: '《JavaScript》笔记', link: '/note/javascript/' },
+                    { text: '《ES6》笔记', link: '/note/es6/' },
                     { text: '《TypeScript》笔记', link: '/note/typescript/' },
-                    { text: '《ES6 教程》笔记', link: '/note/es6/' },
-                    { text: '《Vue2》笔记', link: '/note/vue2/' },
-                    { text: '《Vue3》笔记', link: '/note/vue3/' },
+                    { text: '《Vue2.x》笔记', link: '/note/vue2/' },
+                    { text: '《Vue3.x》笔记', link: '/note/vue3/' },
                     { text: '《React》笔记', link: '/note/react/' },
                     { text: '《Nodejs》笔记', link: '/note/node/' }
                 ]
