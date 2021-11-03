@@ -2,7 +2,7 @@
     "name": "theme-vdoing-blog",
     "version": "1.0.0",
     "scripts": {
-        "serve": "vuepress dev docs",
+        "dev": "vuepress dev docs",
         "build": "vuepress build docs",
         "deploy": "bash deploy.sh",
         "editFm": "node utils/editFrontmatter.js",
