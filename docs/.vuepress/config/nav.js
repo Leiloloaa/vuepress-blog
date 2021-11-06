@@ -14,7 +14,7 @@ module.exports = [
                 text: '前端基础',
                 items: [
                     { text: 'HTML', link: '/pages/8143cc480faf9a11/' },
-                    { text: 'CSS', link: '/pages/c8f128/' },
+                    { text: 'CSS', link: '/pages/c8f128/' }
                 ]
             },
             {
@@ -59,10 +59,9 @@ module.exports = [
         text: '更多',
         link: '/more/',
         items: [
-            { text: '学习', link: '/pages/f2a556/' },
-            { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-            { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-            { text: '实用技巧', link: '/pages/baaa02/' },
+            { text: '个人总结', link: '/pages/98ad67/' },
+            { text: '随笔录', link: '/pages/2d615df9a36a98ed/' },
+            { text: '收藏夹', link: '/pages/f2a556/' },
             { text: '友情链接', link: '/friends/' }
         ]
     }
