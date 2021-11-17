@@ -39,10 +39,10 @@ module.exports = [
             { text: 'JavaScript', link: '/pages/fe685a/' },
             { text: 'Vue', link: '/pages/ef8039/' },
             { text: 'React', link: '/pages/f12baf/' },
-            { text: 'webpack&vite', link: '/pages/0dfbb8/' },
-            { text: '算法篇', link: '/pages/4413f6/' },
-            { text: '手写篇', link: '/pages/3b7eb4/' },
-            { text: '源码篇', link: '/pages/498ec3/' }
+            { text: 'Webpack&Vite', link: '/pages/0dfbb8/' },
+            { text: 'Arithmetic', link: '/pages/4413f6/' },
+            { text: 'WriteCode', link: '/pages/3b7eb4/' },
+            { text: 'SourceCode', link: '/pages/498ec3/' }
         ]
     },
     {
