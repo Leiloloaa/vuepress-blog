@@ -20,5 +20,4 @@ bin-release/
 node_modules
 
 .vscode
-
-docs/.vuepress/dist
+.vuepress/
