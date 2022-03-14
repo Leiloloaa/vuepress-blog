@@ -69,17 +69,17 @@ function getSum2(num) {
 // console.log(getSum2(3));
 
 // 扁平化数组 [1,[2,3,[4]]]
-function changeArr(arr) {
-  let result = [];
-  for (const item of arr) {
-    if (Array.isArray(item)) {
-      result = result.concat(changeArr(item));
-    } else {
-      result.push(item);
-    }
-  }
-  return result;
-}
+// function changeArr(arr) {
+//   let result = [];
+//   for (const item of arr) {
+//     if (Array.isArray(item)) {
+//       result = result.concat(changeArr(item));
+//     } else {
+//       result.push(item);
+//     }
+//   }
+//   return result;
+// }
 
 function changeArr2(arr) {
   // return arr.toString().split('');
@@ -108,6 +108,7 @@ function changeArr(arr) {
   let result = [];
   for (const item of arr) {
     if (Array.isArray(item)) {
+      console.log('arr', result);
       result = result.concat(changeArr(item));
     } else {
       result.push(item);
@@ -116,9 +117,11 @@ function changeArr(arr) {
   return result;
 }
 
-function changeArr(arr) {
-  return arr.toString().split('');
-}
+console.log(changeArr([1, [2, 3, [4]]]));
+
+// function changeArr(arr) {
+//   return arr.toString().split('');
+// }
 
 // 双指针 翻转字符串 abcd -> dcba
 function reverseStr(str) {
@@ -131,4 +134,4 @@ function reverseStr(str) {
   return res.join('');
 }
 
-console.log(reverseStr('abcd'));
+// console.log(reverseStr('abcd'));
