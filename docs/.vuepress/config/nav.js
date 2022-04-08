@@ -1,3 +1,9 @@
+/*
+ * @Author: Stone
+ * @Date: 2022-03-24 09:54:29
+ * @LastEditors: Stone
+ * @LastEditTime: 2022-04-08 11:50:40
+ */
 // nav
 module.exports = [
     { text: '首页', link: '/' },
@@ -53,9 +59,7 @@ module.exports = [
         link: '/technology/',
         items: [
             { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-            { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-            { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-            { text: '博客搭建', link: '/pages/41f87d890d0a02af/' }
+            { text: 'Git技巧', link: '/pages/9f2be3/' },
         ]
     },
     {
