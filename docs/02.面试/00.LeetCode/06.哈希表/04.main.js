@@ -21,17 +21,36 @@
 // 不做暴力破解，所以只有一个循环
 // 新建一个 map 用来存放 target-num 的值和下标
 // 如果循环的过程中，已经存在了，那就说明找到了
-function isTwoSum(nums, target) {
-  // [2, 7, 4], 9;
-  let map = new Map();
-  for (let i = 0; i < nums.length; i++) {
-    let temp = target - nums[i];
-    if (map.has(temp)) {
-      let j = map.get(temp);
-      return [j, i];
-    }
-    map.set(nums[i], i);
-  }
-}
+// function isTwoSum(nums, target) {
+//   // [2, 7, 4], 9;
+//   let map = new Map();
+//   for (let i = 0; i < nums.length; i++) {
+//     let temp = target - nums[i];
+//     if (map.has(temp)) {
+//       let j = map.get(temp);
+//       return [j, i];
+//     }
+//     map.set(nums[i], i);
+//   }
+// }
 
-console.log(isTwoSum([3, 2, 4], 6));
+// console.log(isTwoSum([3, 2, 4], 6));
+
+// 暴力破解
+var twoSum = function (nums, target) {
+  const result = [];
+  let i = 0;
+  while (i < nums.length) {
+    let numResult = target - nums[i];
+    console.log(numResult);
+    let num2Result = nums.indexOf(numResult);
+    console.log(nums.indexOf(numResult));
+    if (num2Result != -1 && num2Result != i) {
+      return [i, num2Result];
+    }
+    i++;
+  }
+  return result;
+};
+
+console.log(twoSum([3, 2, 4], 6));
