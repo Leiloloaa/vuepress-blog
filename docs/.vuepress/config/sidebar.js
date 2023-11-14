@@ -16,7 +16,7 @@ module.exports = {
       ]
     },
   ],
-  '/02.面试/': [
+  '/02.知识库/': [
     {
       title: 'html-css',
       collapsable: false,

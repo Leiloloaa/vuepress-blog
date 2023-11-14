@@ -41,7 +41,7 @@ module.exports = [
         ]
     },
     {
-        text: '面试',
+        text: '知识库',
         link: '/face_interview/',
         items: [
             { text: 'All_Subject', link: '/pages/851d51/' }

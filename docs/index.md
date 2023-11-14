@@ -12,7 +12,7 @@ features: # 可选的
     details: JavaScript、ES6、Vue框架等前端技术
     link: /web/ # 可选
     imgUrl: /img/web.png # 可选
-  - title: 面试
+  - title: 知识库
     details: 面试题、手写题、源码分析等多种形式
     link: /face_interview/
     imgUrl: /img/ui.png
