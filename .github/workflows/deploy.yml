@@ -28,7 +28,7 @@ jobs:
         run: npm ci
 
       - name: 构建项目
-        run: node --legacy-openssl-provider ./node_modules/.bin/vuepress build docs
+        run: npm run build
 
       - name: 部署到 GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
