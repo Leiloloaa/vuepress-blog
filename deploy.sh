@@ -10,7 +10,8 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'b.Stone.com' > CNAME
+# 暂时注释掉自定义域名，使用GitHub Pages默认域名
+# echo 'b.Stone.com' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'

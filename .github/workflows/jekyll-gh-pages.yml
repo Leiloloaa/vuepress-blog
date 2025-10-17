@@ -38,3 +38,5 @@ jobs:
           publish_dir: ./docs/.vuepress/dist
           force_orphan: true
           keep_files: false
+          # 暂时注释掉自定义域名，使用GitHub Pages默认域名
+          # cname: b.Stone.com

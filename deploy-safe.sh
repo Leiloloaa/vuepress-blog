@@ -13,8 +13,8 @@ npm run build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
-# 设置CNAME文件
-echo 'b.Stone.com' > CNAME
+# 设置CNAME文件（暂时注释掉自定义域名）
+# echo 'b.Stone.com' > CNAME
 
 # 配置Git用户信息
 if [ -z "$GITHUB_TOKEN" ]; then
