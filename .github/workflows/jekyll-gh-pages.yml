@@ -28,9 +28,7 @@ jobs:
         run: npm ci
 
       - name: 构建项目
-        run: npm run build
-        env:
-          NODE_OPTIONS: "--legacy-openssl-provider"
+        run: node --legacy-openssl-provider ./node_modules/.bin/vuepress build docs
 
       - name: 部署到 GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -38,4 +36,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/.vuepress/dist
-          cname: b.Stone.com # 你的自定义域名，如果没有可以删除这行
