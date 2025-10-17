@@ -24,7 +24,13 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
+
+# 尝试推送，如果失败则先拉取远程更新
+if ! git push -f $githubUrl master:gh-pages; then
+  echo "推送失败，尝试拉取远程更新..."
+  git fetch $githubUrl gh-pages:gh-pages
+  git push -f $githubUrl master:gh-pages
+fi
 
 # deploy to coding pages
 # echo 'www.Stone.com\nStone.com' > CNAME  # 自定义域名
