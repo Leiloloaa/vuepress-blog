@@ -1,0 +1,15 @@
+# GitHub Pages 配置文件
+# 这个文件用于配置 GitHub Pages 的设置
+
+# 自定义域名配置
+# 如果你的域名是 b.Stone.com，请确保在 GitHub 仓库设置中配置了正确的 DNS 记录
+
+# 构建配置
+# 构建命令: npm run build
+# 输出目录: docs/.vuepress/dist
+# 分支: gh-pages (由 GitHub Actions 自动创建)
+
+# 注意事项:
+# 1. 确保在 GitHub 仓库的 Settings > Pages 中启用 Pages
+# 2. 选择 "GitHub Actions" 作为源
+# 3. 确保仓库是公开的，或者你有 GitHub Pro 账户
